@@ -1,0 +1,101 @@
+header{
+	max-width: 1000px;
+	margin-left: 210px;
+}
+.header{
+	margin-left: 20px;
+}
+header img{
+	float: left;
+}
+
+main .main-left img{
+	float: left;
+}
+.header h2{
+    padding: 25px;
+    font-family: arial;
+    color: red;
+    font-size: 30px;
+}
+.menu{
+    background-color: #0c9012;
+    padding: 10px;
+}
+.menu ul{
+	margin-top: 0px;
+}
+.menu ul #trangchu{
+    margin-left: 0px;
+}
+.menu ul .limenu{
+	list-style: none;
+    float: left;
+    margin-left: 30px;
+}
+
+.menu ul .limenu a{
+	color: #fff;
+	font-family: arial;
+	text-decoration: none;
+}
+
+main{
+	max-width: 1000px;
+    margin-left: 210px;
+    margin-top: 10px;
+}
+main .main-left{
+	max-width: 780px;
+	float: left;
+}
+main .main-left .dav{
+	margin-top: 40px;
+}
+main .main-left #dav1{
+	margin-top: 5px;
+}
+main .main-left img{
+	max-width: 225px;
+}
+main .main-left #noidung{
+	padding-left: 230px;
+}
+main .main-left #tieude{
+	font-size: 18px;
+    margin-bottom: 0px;
+}
+main .main-left #tieude a{
+	color: black;
+    text-decoration: none;
+}
+main .main-left p{
+	margin-bottom: 0px;
+    font-size: 14px;
+    margin-top: 5px;
+    font-family: arial;
+}
+main .main-left .thongtin{
+	float: left;
+	margin-left: 58px;
+}
+main .main-left #ngay{
+	margin-left: 0px;
+}
+main .main-right .img-main-right{
+	max-width: 210px;
+    margin-left: 5px;
+    margin-top: 6px;
+}
+footer{
+	max-width: 1000px;
+    margin-left: 210px;
+}
+footer h3{
+	font-size: 20px;
+    font-family: arial;
+    color: #fff;
+    background: #094d0c;
+    text-align: center;
+    padding: 20px;
+}
