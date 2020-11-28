@@ -1,0 +1,46 @@
+header section{
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-items: center;
+}
+header section .left{
+    width: 480px;
+}
+header section .left h1{
+    font-size: 25px;
+}
+header section .left h3{
+    font-size: 35px;
+}
+header section .left h4{
+    font-size: 15px;
+}
+header section .left button{
+    margin: 10px 145px;
+}
+header section .left p{
+    font-size: 25px;
+}
+main div.top p{
+    font-size: 15px;
+}
+main div.middle p{
+    font-size: 15px;
+}
+main div.content .bodycontent{
+    
+}
+body div.bottom{
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+body div.bottom div.duoi{
+    flex-direction: column;
+
+}
+body div.bottom div.duoi{
+    max-width: 480px;
+}
+body div.bottom div.duoi .left{
+    
+}

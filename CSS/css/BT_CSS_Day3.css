@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    font-family: arial;
+    --text-color: #4166d2;
+    --text: #61739a;
+}
+.thanhngang{
+    background: #202d4e;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    line-height: 50px;
+    color: #ffff;
+    font-size: 18px;
+    
+}
+.thanhngang a{
+    color: #ede7a8;
+}
+header{
+    
+}
+header section{
+    background: #e6f4f1;
+    align-items: center;
+    padding: 70px 280px;
+    display: flex;
+    justify-content: center;
+}
+header section .left{
+    display: flex;
+    flex-direction: column;
+}
+header section .left h1{
+    font-size: 40px;
+    color: var(--text);
+}
+header section .left h3{
+    font-size: 62px;
+    color: var(--text-color);
+    font-weight: bold;
+}
+header section .left h4{
+    font-size: 20px;
+    color: var(--text);
+}
+header section .left button{
+    width: 190px;
+    height: 55px;
+    border-radius: 8px;
+    background: var(--text-color);
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 10px 0px;
+}
+header section .left p{
+    font-size: 17px;
+    color: var(--text);
+}
+header section .left p a{
+    color: black;
+}
+header section .right{
+    justify-content: flex-end;
+    display: flex;
+}
+header section .right img{
+    width: 300px;
+    border-radius: 7px;
+}
+main{
+    background: var(--text-color);
+    
+}
+main div.top, main div.middle{
+    
+    display: flex;
+    /*Có ý nghĩa khi không gian hẹp*/
+    flex-wrap: wrap;
+    /*flex-direction: column;*/
+    justify-content: center;
+    /*align-items: center;*/
+    align-content: space-around;   
+
+}
+main div.top p{
+    background: #fff;
+    font-size: 22px;
+    flex-basis: 690px;
+    height: 120px;
+    text-align: center;
+    line-height: 40px;
+    margin: 60px 0px;    
+    border-radius: 5px;
+    padding: 10px;
+}
+
+main div.middle p{
+    font-size: 21px;
+    flex-basis: 700px;
+    height: 120px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+main div.content{
+    display: flex;
+    /*Có ý nghĩa khi không gian hẹp*/
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;*/
+    align-content: space-around; 
+    
+}
+main div.content .bodycontent{
+    width: 900px;
+    background: #fff;
+    margin: 60px 0px;
+    border-radius: 10px;
+    padding-top: 45px;
+}
+main div.content h2{
+    font-size: 45px;
+    text-align: center;
+    color: var(--text-color);
+    font-weight: bold;
+
+}
+main div.content .subcontent{
+
+}
+main div.content .subcontent ul{
+    list-style-type: none;
+    width: 900px;
+    height: 80px;
+    padding-top: 15px;
+}
+main div.content .subcontent ul li{
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+}
+
+main div.content .subcontent ul:nth-child(1), ul:nth-child(3), ul:nth-child(5), ul:nth-child(7){
+    background: #f0f8f7;
+}
+main div.content .subcontent ul li p.chap{
+    font-size: 18px;
+    margin: 0px 30px;
+    width: 50px;
+    height: 50px;
+    background: #b0c4ff;
+    border-radius: 50px;
+    padding-left: 6px;
+    line-height: 48px
+}
+main div.content .subcontent ul li section.right p{
+    margin: 0;
+    font-size: 20px;
+}
+main div.content .subcontent ul li section.right h3{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+body .footer{
+    background: #202d4e;
+    color: #fff;
+    padding: 85px 0px;
+    align-items: center;
+}
+body .footer h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+body .footer section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+body .footer section .item{
+    display: flex;
+    width: 500px;
+    align-items: flex-start;
+    margin: 20px 0px;
+}
+body .footer section .item img{
+    width: 50px;
+    margin: 0px 20px;
+}
+body .feedback{
+    background: #e6f4f1;
+    color: black;
+    align-items: center;
+    padding: 60px 0px;
+}
+body .feedback h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+body .feedback section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+body .feedback h2 {
+    font-weight: bold;
+    color: var(--text-color);
+}
+body .feedback section .feedback1{
+    display: flex;
+    width: 500px;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+body .feedback section .feedback1 img{
+    width: 50px;
+    margin-right: 20px;
+    
+}
+body .feedback section .feedback1 p.nd{
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+body .buynow{
+    background:  #202d4e;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+body .buynow h2{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+body .buynow div.buy{
+    background: #e1efec;
+    width: 330px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    line-height: 30px;
+    margin-top: 20px;
+}
+body .buynow div.buy p.price{
+    margin-top: 15px;
+}
+body .buynow div.buy p.price s{
+    font-size: 20px;
+    font-style: italic;
+}
+body .buynow div.buy p.price span{
+    color: var(--text-color);
+    font-size: 30px;
+}
+body .buynow div.buy button{
+    background: var(--text-color);
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+body .buynow div.buy img{
+    width: 100px;
+}
+body .buynow div.mail{
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+body div.bottom{
+    background: #e6f4f1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+body div.bottom div.tren{
+    text-align: center;
+    width: 100%;
+}
+body div.bottom div.tren h2{
+    color: var(--text-color);
+    font-size: 40px;
+    padding-top: 55px;
+    padding-bottom: 30px;
+}
+body div.bottom div.tren p{
+    font-size: 16px;
+}
+body div.bottom div.giua{
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: var(--text-color);
+    margin-bottom: 50px;
+}
+body div.bottom div.duoi{
+    background: #fff;
+    display: flex;
+    width: 1000px;
+    border-radius: 10px;
+    padding: 15px;
+}
+body div.bottom div.duoi img{
+    width: 100px;
+}
+body div.bottom div.duoi .middle{
+    margin-left: 20px;
+}
+body div.bottom div.duoi .left{
+    background: aliceblue;
+    padding: 11px;
+    width: 65%;
+    border-radius: 8px;
+}
+body div.bottom div.duoi .left ul{
+    list-style-type: none;
+}
+body div.bottom div.duoi .middle p{
+font-size: 21px;
+}
