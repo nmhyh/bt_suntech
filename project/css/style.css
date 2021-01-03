@@ -98,19 +98,14 @@ header .icon .header-icon .total_product{
 
 /* slider */
 slider{
-    /* width: 100%;
-    display: block;
-    height: 617px;
-    position: relative; */
     width: 100%;
     display: block;
     height: 617px;
     position: relative;
-    margin: 0 auto;
-    max-width: 1550px;
 }
 
 slider div.slider-container{
+
 }
 
 slider div.slider-container .slider-item{
@@ -120,7 +115,8 @@ slider div.slider-container .slider-item{
 }
 
 slider div.slider-container .slider-item img{
-    max-width: 100%;
+    width: 100%;
+    height: 617px;
 }
 
 .slider-item h2{
@@ -128,7 +124,7 @@ slider div.slider-container .slider-item img{
     top: 45%;
     left: 13%;
     line-height: 45px;
-    letter-spacing: 10px;;
+    letter-spacing: 10px;
 }
 .slider-item h2 span, .slider-item h2 small{
     text-transform: uppercase;
@@ -173,7 +169,7 @@ best-seller ul li div p{
 }
 
 best-seller ul li img{
-    max-width: 250px;
+    max-width: 100%;
 }
 
 best-seller ul li a{
@@ -261,15 +257,15 @@ promotion ul{
     list-style-type: none;
     display: flex;
     align-items: center;
-    height: 350px;
 }
 promotion ul li{
     flex-basis: 33%;
-    height: 350px;
+    
 }
 
 promotion ul li img{
-    width: 350px;
+    width: 100%;
+    height: 350px;
 }
 
 /* product-feature */
@@ -291,12 +287,11 @@ product-feature ul{
 
 product-feature ul li{
     flex-basis: 20%;
-    min-height: 200px;
     position: relative;
 }
 
 product-feature ul li img{
-    max-width: 250px;
+    max-width: 100%;
 }
 
 product-feature ul li a{
@@ -341,7 +336,7 @@ product-feature ul li:hover .user-action{
 /* footer */
 footer{
     width: 100%;
-    height: 155px;
+    height: 200px;
     background: #2e3348;
 }
 
@@ -350,13 +345,13 @@ footer ul{
     padding: 0;
     list-style-type: none;
     display: flex;
-    height: 155px;
+    height: 200px;
 }
 
 footer ul li{
     width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     color: #fff;
 }
@@ -386,7 +381,7 @@ footer ul li .form{
 }
 
 footer ul li input{
-    width: 70%;
+    width: 100%;
     height: 35px;
 }
 
@@ -397,16 +392,14 @@ footer ul li .form button{
     color: #fff;
     margin-left: 7px;
     background: var(--textColor);
+    font-size: 12px;
 }
 
 footer ul span{
-    margin-left: 30px;
 }
 
 footer ul span img{
-    width: 100px;
-    margin-right: 35px;
-
+    width: 100%;
 }
 
 footer .copyright{
@@ -415,7 +408,7 @@ footer .copyright{
     width: 100%;
     height: 35px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 
 }
 
@@ -432,4 +425,49 @@ footer .copyright .payment a{
     font-size: 1.3em;
 }
 
+@media screen and (max-width: 1000px){
+    header .container .menu ul li a {
+        font-size: 10px;
+    }
+    footer ul li .form button{
+        font-size: 10px;
+    }
+}
 
+@media screen and (max-width: 750px){
+    header .container .logo a{
+        font-size: 20px;
+    }
+    header .container .menu ul li a {
+        font-size: 10px;
+    }
+    .slider-item h2 span, .slider-item h2 small{
+        font-size: 20px;
+    }
+    slider{
+        height: 417px;
+    }
+    slider div.slider-container .slider-item img{
+        height: 417px;
+    }
+    footer ul li .form{
+        width: 100%;
+        display: flex;
+    }
+    
+    footer ul li input{
+        width: 100%;
+        height: 20px;
+    }    
+    footer ul li .form button{
+        font-size: 7px;
+        height: 20px;
+        width: 40%;
+    }
+    footer ul li h2{
+        font-size: 12px;
+    }
+    footer ul li p{
+        font-size: 10px;
+    }
+}
