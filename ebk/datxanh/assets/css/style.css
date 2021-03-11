@@ -98,8 +98,11 @@ ul li .nav-link{
   font-size: 16px;
 }
 
-.list-news-title{
+.list-title{
   text-transform: uppercase;
+  margin: 0 auto;
+  color: #005aa6;
+  text-align: center;
 }
 
 /* giới thiệu đất xanh */
@@ -121,6 +124,10 @@ ul li .nav-link{
 
 .text-introduce {
   font-size: 13px;
+}
+
+.block-image-introduce{
+  padding-right: 0;
 }
 
 /* thông số */
@@ -163,9 +170,7 @@ ul li .nav-link{
 }
 .card-project img:hover {
   -ms-transform: scale(1.2);
-  /* IE 9 */
   -webkit-transform: scale(1.2);
-  /* Safari 3-8 */
   transform: scale(1.2);
 }
 
@@ -262,4 +267,16 @@ footer{
 
 .footer3 ul.list-address li.item-address a{
   color: #000;
+}
+
+@media screen and (max-width: 600px) {
+
+  .row{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .block-image-introduce{
+    padding-right: 10px;
+    padding-left: 10px;
+  }
 }
